@@ -1,0 +1,159 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+body {
+    background:linear-gradient(90deg, rgba(30,60,224,1) 0%, rgba(218,0,255,1) 100%);
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+    
+    
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.488);
+    padding: 40px;
+    border-radius: 25px;
+    text-align: center;
+    justify-content: center;
+    margin: 10% auto;
+}
+
+#pageTitle {
+    position: absolute; 
+    top: 0;
+    left: 15px;
+    margin-top: 10px; 
+}
+
+#loginName {
+    margin-top: 10%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    background:linear-gradient(90deg, rgba(30, 59, 224, 0.371) 0%, rgba(217, 0, 255, 0.200 ) 100%);
+    
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    outline: none;
+    color: #fff;
+    border: 1px solid transparent;
+    border-bottom: 2px solid #fff; 
+    background: transparent;
+    
+    
+
+}
+
+label {
+    font-weight: 300;
+    font-weight: bolder;
+    
+}
+
+#submitBtn {
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 6px;
+    margin: 15px auto 0;
+    border-radius: 8px;
+    width: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    outline: none;
+    border-style: none;
+    
+}
+
+#submitBtn:active {
+background:linear-gradient(90deg, rgba(30,60,224,1) 0%, rgba(218,0,255,1) 100%);
+
+}
+
+#submitBtn:hover,
+#submitBtn:focus {
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+#copywrite {
+    text-align: center;
+    padding: 1em;
+    display: inline-block;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+#homePage {
+    position: absolute;
+    margin-top: 18px;
+    top: 0;
+    margin-left: 60rem;
+    text-align: right;
+}
+
+#homePage:hover {
+    cursor:pointer;
+    text-decoration: underline;
+
+}
+
+#aboutPage {
+    position: absolute;
+    margin-top: 18px;
+    top: 0;
+    text-align: right;
+    margin-left: 70rem;
+}
+
+#aboutPage:hover {
+    cursor:pointer;
+    text-decoration: underline;
+}
+
+#nosePage {
+    position: absolute;
+    margin-top: 18px;
+    top: 0;
+    text-align: right;
+    margin-left: 81rem;
+    
+}
+
+#nosePage:hover {
+    cursor:pointer;
+    text-decoration: underline;
+}
+
+#rememberPasswordlabel {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 100px; 
+    margin-top: 2rem;
+    white-space: nowrap;               
+}
+
+#rememberPassword {
+    margin: 5px;
+    margin-left: 50%;
+}
+
+form a {
+    position: relative;
+    top: 10px;
+    
+}
