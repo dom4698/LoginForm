@@ -3,36 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
+    <title>Home</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <h1 id="pageTitle">Nigga entrepise</h1>
-    <h3 id="homePage"><a href="home.html" style="color: white; text-decoration: none;">Home</a></h3>
-    <h3 id="aboutPage"><a href="about.html" style="color: white; text-decoration: none;">About</a></h3>
-    <h3 id="nosePage"><a href="contact.html" style="color: white; text-decoration: none;">Contact</a></h3>
+    <h3 id="homePage">Home</h3>
+    <h3 id="aboutPage">About</h3>
+    <h3 id="nosePage">Contact</h3>
     
-    <form action="www.negros.com/register" method="post">
+    <form action="www.negros.com" method="get">
         <h1 id="loginName">Register</h1>
         <label>Username:</label>
-        <input placeholder="Choose a username" type="text" >
+        <input placeholder="Enter your username" type="text" >
         <br>
         <label>Password:</label>
-        <input placeholder="Choose a password" type="password">
-        <div id="rememberPasswordlabel">
-            <input id="rememberPassword" type="checkbox">
-            <label for="rememberPassword">Remember Password</label>
-        </div>
-        <button  id="submitBtn" type="submit">Register</button>
-        <p id="noAccount">Already have an account? <a href="login.html" style="color: white;">Login here</a>.</p>
+        <input placeholder="Enter your password" type="password">
+        <button  id="submitBtn" type="submit">Continue</button>
+        <a  id="noAccount" href='login.html' style="color: white;">Already have an account?</a>
+        
     </form>
 
     <footer id="copywrite">
         <p>&copy; Nigga entrepise</p>
     </footer>
    
+    
 </body>
 </html>
