@@ -1,6 +1,7 @@
 * {
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    
 }
 
 body {
@@ -17,13 +18,13 @@ body {
 }
 
 form {
-    background-color: rgba(0, 0, 0, 0.488);
+    background-color: rgba(0, 0, 0, 0.55);
+    backdrop-filter: blur(20px);
     padding: 40px;
     border-radius: 25px;
     text-align: center;
     justify-content: center;
     margin: 10% auto;
-   
 }
 
 #pageTitle {
@@ -159,3 +160,5 @@ form a {
     top: 10px;
     
 }
+
+
